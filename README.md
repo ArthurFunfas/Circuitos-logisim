@@ -1,3 +1,6 @@
 Circuitos-Logisim
-   ###4-Bit-Adder:
-   Um circuito lógico que realiza soma binária de dois números binários, ambos de 4 bis. Construido primeiramente por um *Half-Adder* que soma as duas entradas e gera uma saída de soma e outra de *Carry-Out*→*Carry-In* para o próximo somador, depois do *Half-Adder* ele passa por 3 *Full-Adder* consecutivamente, o *Full-Adder* recebe as duas entradas mais o *carry-out* anterior que no operador atual se torna um *carry-in*. No último *Full-Adder* o *Carry-Out* não conecta à saída. A saída "soma" de todos os somadores se conecta na saída respectivamente de acordo com sua ordem de operação. 
+
+
+## 4-Bit-Adder:
+
+Um circuito lógico que realiza soma binária de dois números binários, ambos de 4 bis. Construido primeiramente por um *Half-Adder* que soma as duas entradas e gera uma saída de soma e outra de *Carry-Out*→*Carry-In* para o próximo somador, depois do *Half-Adder* ele passa por 3 *Full-Adder* consecutivamente, o *Full-Adder* recebe as duas entradas mais o *carry-out* anterior que no operador atual se torna um *carry-in*. No último *Full-Adder* o *Carry-Out* não conecta à saída. A saída "soma" de todos os somadores se conecta na saída respectivamente de acordo com sua ordem de operação. 
