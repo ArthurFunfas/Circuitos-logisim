@@ -1,9 +1,9 @@
 {
-  "ProjectName": "ArquiteturaB4",
+  "ProjectName": "Circuitos-logisim",
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-07T20:08:24.776-03:00",
-  "LastSaveTime": "2025-10-28T21:27:25.814-03:00",
+  "LastSaveTime": "2025-11-11T21:00:36.110-03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -22,7 +22,10 @@
     "Full-Adder2",
     "Half-Adder",
     "3-And",
-    "4-Bit-Adder"
+    "4-Bit-Adder",
+    "Half-Subtractor",
+    "3XOR",
+    "Full-Subtractor"
   ],
   "StarredList":[
     {
@@ -44,10 +47,6 @@
     {
       "Name":"ComplexCircuits",
       "IsCollection":true
-    },
-    {
-      "Name":"4-Bit-Adder",
-      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -92,7 +91,7 @@
       "Name":"BasicGates"
     },
     {
-      "Chips":["Full-Adder2","Half-Adder","3-And"],
+      "Chips":["3-And","3XOR","Half-Adder","Full-Adder2","4-Bit-Adder","Half-Subtractor","Full-Subtractor"],
       "IsToggledOpen":true,
       "Name":"ComplexCircuits"
     }
