@@ -15,3 +15,9 @@ Um circuito lógico que realiza soma binária de dois números binários, ambos 
 ### Entradas: A entrada A simboliza o valor positivo enquanto a B simboliza o valor negativo da operação, Bi (Borrow-In) é valor que foi pego emprestado pela casa anterior.
 ### Saídas: Diff mostra o resultado da subtração entre as entradas e o Borrow-In. Bo(Borrow-Out) indica se precisa pegar um valor emprestado da casa posterior.
 ### Explicação: Um sistema que realiza a operação de subtração entre as entradas positiva(A) e negativa(B) e verifica se há pendências, indicadas por Borrow-In. Mostra o resultado das operações em Diff e a necessidade de pegar valor emprestado da casa posterior em Borrow-Out.
+
+
+## 2B-MUX
+### Entradas: Entradas S0 e S1 representam os controladores do circuito, decidindo qual das energias poderá passar. As entradas A,B,C e D são os sinais do circuito, dos quais apenas 1 deles pode passar.
+### Saídas: Saída que irá receber energia de apenas uma das 4 entradas.
+### Explicação: Os controladores definirão qual sinal de uma das entradas poderá passar através de uma condicional "AND", isto é, somente irá passar energia da entrada que estiver **ligada** e que estiver com os controladores ligados/desligados, de acordo com suas definições(Ex: entrada A só irá transmitir energia se a mesma estiver ligada e se os 2 controladores estiverem desligados). No final, por mais que apenas uma transfra energia, todas as entradas se encontram numa porta "OR" que enviará o sinal da entrada escolhida para a saída.
